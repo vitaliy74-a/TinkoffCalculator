@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TinkoffCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAe-rU-PS2">
+                                <rect key="frame" x="0.0" y="719.33333333333337" width="98.333333333333329" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title=",">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mts-5u-SWE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uE-pV-LqA">
+                                <rect key="frame" x="0.0" y="324.66666666666669" width="294.66666666666669" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0P-te-iI9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJh-yo-E4C">
+                                <rect key="frame" x="196.66666666666666" y="423.33333333333331" width="97.999999999999972" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZX8-HB-0BL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pj-Fy-7LS">
+                                <rect key="frame" x="98.333333333333343" y="423.33333333333331" width="98.333333333333343" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QEU-nB-bvn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBK-f1-Ygr">
+                                <rect key="frame" x="196.66666666666666" y="522" width="97.999999999999972" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tGk-zl-dOP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yd0-Zu-Us8">
+                                <rect key="frame" x="98.333333333333343" y="522" width="98.333333333333343" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HkF-ff-28p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkU-RC-WrG">
+                                <rect key="frame" x="0.0" y="620.66666666666663" width="98.333333333333329" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BB6-Rw-VZk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeS-CE-Cu2">
+                                <rect key="frame" x="0.0" y="522" width="98.333333333333329" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0S-WE-t8L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEW-u0-iod">
+                                <rect key="frame" x="0.0" y="423.33333333333331" width="98.333333333333329" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RM2-t1-WFF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6d-Yh-IyA">
+                                <rect key="frame" x="98.333333333333343" y="620.66666666666663" width="98.333333333333343" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4CY-p8-AxK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gk7-s7-tww">
+                                <rect key="frame" x="196.66666666666666" y="620.66666666666663" width="97.999999999999972" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8di-Sd-03N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-k0-PGj">
+                                <rect key="frame" x="98.333333333333329" y="719.33333333333337" width="196.33333333333337" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r0H-ml-oPN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEC-fA-7z4">
+                                <rect key="frame" x="294.66666666666669" y="719.33333333333337" width="98.333333333333314" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Kq-uX-KeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHo-VM-NPo">
+                                <rect key="frame" x="294.66666666666669" y="620.66666666666663" width="98.333333333333314" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7x-SK-GAA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBr-yA-fmy">
+                                <rect key="frame" x="294.66666666666669" y="522" width="98.333333333333314" height="98.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJg-Yt-fuI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF3-CI-xvK">
+                                <rect key="frame" x="294.66666666666669" y="423.33333333333331" width="98.333333333333314" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2aY-jy-o3q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKd-zb-Cc5">
+                                <rect key="frame" x="294.66666666666669" y="324.66666666666669" width="98.333333333333314" height="98.666666666666686"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                <color key="tintColor" systemColor="systemGray4Color"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="rrr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCM-dY-a2d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="0zt-dQ-0dP"/>
+                            <constraint firstItem="1Pj-Fy-7LS" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="1jx-Ap-mEy"/>
+                            <constraint firstItem="xAe-rU-PS2" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="2HQ-Jf-c1R"/>
+                            <constraint firstItem="u6d-Yh-IyA" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="2J9-x9-jmD"/>
+                            <constraint firstItem="gk7-s7-tww" firstAttribute="top" secondItem="vBK-f1-Ygr" secondAttribute="bottom" id="3CJ-5T-mea"/>
+                            <constraint firstItem="sKd-zb-Cc5" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="3So-ud-9Hl"/>
+                            <constraint firstItem="sKd-zb-Cc5" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="4F1-D3-dTz"/>
+                            <constraint firstItem="3uE-pV-LqA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6uS-b5-duK"/>
+                            <constraint firstItem="sEC-fA-7z4" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="718-J4-E3R"/>
+                            <constraint firstItem="vBK-f1-Ygr" firstAttribute="leading" secondItem="yd0-Zu-Us8" secondAttribute="trailing" id="75F-YS-nFz"/>
+                            <constraint firstItem="mHo-VM-NPo" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="7hq-i5-hbw"/>
+                            <constraint firstItem="gk7-s7-tww" firstAttribute="leading" secondItem="u6d-Yh-IyA" secondAttribute="trailing" id="7rd-L6-XoG"/>
+                            <constraint firstItem="vBK-f1-Ygr" firstAttribute="top" secondItem="CJh-yo-E4C" secondAttribute="bottom" id="9lk-yF-4he"/>
+                            <constraint firstItem="vBK-f1-Ygr" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="9vP-tG-h9h"/>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="A9m-La-FUj"/>
+                            <constraint firstItem="AeS-CE-Cu2" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="ADW-wW-ixz"/>
+                            <constraint firstItem="sEC-fA-7z4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="1.1368683772161603e-13" id="Bva-YW-4wv"/>
+                            <constraint firstItem="sEC-fA-7z4" firstAttribute="top" secondItem="mHo-VM-NPo" secondAttribute="bottom" id="Bzx-zl-dvj"/>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="bottom" secondItem="xAe-rU-PS2" secondAttribute="top" constant="1.1368683772161603e-13" id="EL1-C1-w7T"/>
+                            <constraint firstItem="pF3-CI-xvK" firstAttribute="leading" secondItem="CJh-yo-E4C" secondAttribute="trailing" id="EZy-s3-QIM"/>
+                            <constraint firstItem="CJh-yo-E4C" firstAttribute="leading" secondItem="1Pj-Fy-7LS" secondAttribute="trailing" id="FZ0-6o-Mdz"/>
+                            <constraint firstItem="sEC-fA-7z4" firstAttribute="leading" secondItem="Gp9-k0-PGj" secondAttribute="trailing" id="H5Z-nZ-Ugv"/>
+                            <constraint firstItem="AeS-CE-Cu2" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="H5k-nG-vQW"/>
+                            <constraint firstItem="AeS-CE-Cu2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hoa-Ix-wyR"/>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="top" secondItem="yd0-Zu-Us8" secondAttribute="bottom" id="I7n-5x-ngC"/>
+                            <constraint firstItem="OBr-yA-fmy" firstAttribute="leading" secondItem="vBK-f1-Ygr" secondAttribute="trailing" id="I8j-Wu-WXD"/>
+                            <constraint firstItem="1Pj-Fy-7LS" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="IeT-ng-FjT"/>
+                            <constraint firstItem="CJh-yo-E4C" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="KM4-eT-GMQ"/>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="top" secondItem="AeS-CE-Cu2" secondAttribute="bottom" id="LCo-gx-uO6"/>
+                            <constraint firstItem="gk7-s7-tww" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="NBw-L6-y5y"/>
+                            <constraint firstItem="Gp9-k0-PGj" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="Rc3-DT-dJn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gp9-k0-PGj" secondAttribute="bottom" id="S0W-yC-jlk"/>
+                            <constraint firstItem="MEW-u0-iod" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="S2t-DB-dQZ"/>
+                            <constraint firstItem="1Pj-Fy-7LS" firstAttribute="top" secondItem="3uE-pV-LqA" secondAttribute="bottom" id="SPX-N6-Av5"/>
+                            <constraint firstItem="xAe-rU-PS2" firstAttribute="top" secondItem="u6d-Yh-IyA" secondAttribute="bottom" id="Sde-54-WB1"/>
+                            <constraint firstItem="xAe-rU-PS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TN8-d8-2ak"/>
+                            <constraint firstItem="yd0-Zu-Us8" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="Tvh-Q3-Psi"/>
+                            <constraint firstItem="xAe-rU-PS2" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="UKW-y8-TUg"/>
+                            <constraint firstItem="mHo-VM-NPo" firstAttribute="top" secondItem="OBr-yA-fmy" secondAttribute="bottom" id="UYW-GZ-W3G"/>
+                            <constraint firstItem="Gp9-k0-PGj" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="Ues-Hp-oPi"/>
+                            <constraint firstItem="gk7-s7-tww" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="UkD-G1-J2n"/>
+                            <constraint firstItem="vBK-f1-Ygr" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="ZyT-1Y-Fge"/>
+                            <constraint firstItem="u6d-Yh-IyA" firstAttribute="leading" secondItem="lkU-RC-WrG" secondAttribute="trailing" id="aib-RP-IWI"/>
+                            <constraint firstItem="OBr-yA-fmy" firstAttribute="top" secondItem="pF3-CI-xvK" secondAttribute="bottom" id="akV-Cj-0z6"/>
+                            <constraint firstItem="mHo-VM-NPo" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="d8V-q2-z6T"/>
+                            <constraint firstItem="Gp9-k0-PGj" firstAttribute="top" secondItem="gk7-s7-tww" secondAttribute="bottom" id="dX3-fZ-iTQ"/>
+                            <constraint firstItem="yd0-Zu-Us8" firstAttribute="top" secondItem="1Pj-Fy-7LS" secondAttribute="bottom" id="dh3-ye-jDA"/>
+                            <constraint firstItem="pF3-CI-xvK" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="dvx-1r-qNT"/>
+                            <constraint firstItem="pF3-CI-xvK" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="h5W-So-UeU"/>
+                            <constraint firstItem="yd0-Zu-Us8" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="ivs-a2-RWF"/>
+                            <constraint firstItem="sEC-fA-7z4" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="ktI-QL-bAG"/>
+                            <constraint firstItem="Gp9-k0-PGj" firstAttribute="leading" secondItem="xAe-rU-PS2" secondAttribute="trailing" id="m7L-qz-fz9"/>
+                            <constraint firstItem="MEW-u0-iod" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="mME-zn-03G"/>
+                            <constraint firstItem="OBr-yA-fmy" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="mqd-Nc-umd"/>
+                            <constraint firstItem="mHo-VM-NPo" firstAttribute="leading" secondItem="gk7-s7-tww" secondAttribute="trailing" id="nGG-3w-uRk"/>
+                            <constraint firstItem="lkU-RC-WrG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="neA-8k-8rv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xAe-rU-PS2" secondAttribute="bottom" id="niU-rK-mBM"/>
+                            <constraint firstItem="sKd-zb-Cc5" firstAttribute="leading" secondItem="3uE-pV-LqA" secondAttribute="trailing" id="nvW-aE-ubp"/>
+                            <constraint firstItem="AeS-CE-Cu2" firstAttribute="top" secondItem="MEW-u0-iod" secondAttribute="bottom" id="oM8-Xh-XXM"/>
+                            <constraint firstItem="MEW-u0-iod" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oRc-SF-FoK"/>
+                            <constraint firstItem="u6d-Yh-IyA" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="qPt-6I-zv5"/>
+                            <constraint firstItem="pF3-CI-xvK" firstAttribute="top" secondItem="sKd-zb-Cc5" secondAttribute="bottom" id="saZ-dQ-5SU"/>
+                            <constraint firstItem="yd0-Zu-Us8" firstAttribute="leading" secondItem="AeS-CE-Cu2" secondAttribute="trailing" id="tyU-Ub-7NK"/>
+                            <constraint firstItem="3uE-pV-LqA" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="tzg-Hc-po3"/>
+                            <constraint firstItem="3uE-pV-LqA" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.75" id="xhz-PC-051"/>
+                            <constraint firstItem="OBr-yA-fmy" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" id="yO4-NI-NXq"/>
+                            <constraint firstItem="1Pj-Fy-7LS" firstAttribute="leading" secondItem="MEW-u0-iod" secondAttribute="trailing" id="zND-2c-XGA"/>
+                            <constraint firstItem="CJh-yo-E4C" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="zma-mr-708"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
